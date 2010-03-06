@@ -2,12 +2,13 @@ This is an alternative ForceBuild Publisher for Cruise Control .Net.
 
 It allows you to let various projects run in sequence regardless of their build result.
 
-bc.
+<pre><code>
   <publishers>
     <forcebuild>
       <project>$(Successor)</project>
       <integrationStatus>$(Status)</integrationStatus>
       <ignoreIntegrationStatus>$(IgnoreStatus)</ignoreIntegrationStatus>
     </forcebuild>
-  <publishers>  
+  <publishers>
+</code></pre>
   
